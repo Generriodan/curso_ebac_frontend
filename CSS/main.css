@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: white;
+    font-family: georgia;
+    font-style: italic; 
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black;
+    padding: 20px 5px 20px 20px;
+    margin: 5px;
+    background-origin: border-box;
+    
+}
+header .container{
+    background-color: #2f3640;
+    display: flex;
+    padding: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header li a{
+    color: #f5f6fa;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 20px; 
+}
+header a:hover{
+    text-decoration-line:underline;
+}
+
+h2{
+    color: dark;
+}
+h3{
+    color: orangered;
+    font-weight: bold;
+}
+time{
+    font-style: italic;
+}
+#esport h2{
+    color: green;
+}
+
+#econom h2{
+    color: blueviolet;
+}
+.time creation-date{
+    color: #ccc;
+}
+.cabeçalho li{
+    display: inline;
+}
+.container {
+
+    width:  1366px;
+    margin: 0 auto;
+
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    width: 100%;
+}
+.articles article {
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.articles article a {
+    background-color: gold ;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none; 
+    font-size: 16px;
+    margin-top: 8px;
+}
+article a:hover{
+    text-decoration: underline;
+    color: white
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif
+}
+.articles article h3{
+    font-size: 24px;
+}
+section h2{
+    font-size: 32px;
+}
+#esport{
+
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#econom {
+    background-color:beige;
+}
+#tecnologia{
+    background-color: #D3D3D3;
+}
+#entretenimento{
+    background-color: #E6E6FA;
+}
+#tecnologia article  a{
+    background-color: #FA8072;
+}
+#tecnologia h2{
+color:	#00FFFF;
+text-shadow: 0 0 0.2em black;
+}
+#entretenimento h2{
+    color: #0000FF;
+    text-shadow: none;
+}
+
+
